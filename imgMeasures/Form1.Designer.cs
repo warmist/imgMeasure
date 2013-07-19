@@ -62,7 +62,9 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox1_Paint);
             this.pictureBox1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseClick);
+            this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseDown);
             this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseMove);
+            this.pictureBox1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseUp);
             // 
             // groupBox1
             // 
@@ -115,6 +117,7 @@
             this.btnLine2.TabIndex = 1;
             this.btnLine2.Text = "Taisyti 2";
             this.btnLine2.UseVisualStyleBackColor = true;
+            this.btnLine2.Click += new System.EventHandler(this.btnLine2_Click);
             // 
             // txtLine1
             // 
@@ -166,6 +169,7 @@
             this.btnDraw1.TabIndex = 0;
             this.btnDraw1.Text = "Piešti";
             this.btnDraw1.UseVisualStyleBackColor = true;
+            this.btnDraw1.Click += new System.EventHandler(this.btnDraw1_Click);
             // 
             // btnDraw2
             // 
@@ -175,6 +179,7 @@
             this.btnDraw2.TabIndex = 1;
             this.btnDraw2.Text = "Piešti";
             this.btnDraw2.UseVisualStyleBackColor = true;
+            this.btnDraw2.Click += new System.EventHandler(this.btnDraw2_Click);
             // 
             // btnErase2
             // 
@@ -184,6 +189,7 @@
             this.btnErase2.TabIndex = 3;
             this.btnErase2.Text = "Trinti";
             this.btnErase2.UseVisualStyleBackColor = true;
+            this.btnErase2.Click += new System.EventHandler(this.btnErase2_Click);
             // 
             // btnErase1
             // 
@@ -193,6 +199,7 @@
             this.btnErase1.TabIndex = 2;
             this.btnErase1.Text = "Trinti";
             this.btnErase1.UseVisualStyleBackColor = true;
+            this.btnErase1.Click += new System.EventHandler(this.btnErase1_Click);
             // 
             // txtArea1
             // 
